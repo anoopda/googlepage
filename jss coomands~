@@ -1,0 +1,24 @@
+JSS commands
+
+window.alert():
+window.alert(5 + 6);
+
+Button:
+<button onclick="document.write(5 + 6)">Try it</button>
+
+
+get element:
+document.getElementById("demo").innerHTML = 5 + 6;
+
+for loop:
+for (i = 0; i < fLen; i++) {
+    text += "<li>" + fruits[i] + "</li>";
+}
+ 
+in line styling: <h1 style="text-align:center; color:blue;" > Google</h1>
+
+
+
+
+
+
