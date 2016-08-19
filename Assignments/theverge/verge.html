@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="vergecss.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+
+	
+
+
+<div class="main_header">
+							<div class="menu_icon_parent">
+	                       					<img  src="verge menu bar from 2016-08-17 17-35-42.png"  id="menu_icon" class="menu_icon">
+	                       	</div>
+
+
+							<div class="the_verge">
+
+									<img src="image.png" >
+								
+								
+							</div>
+
+
+
+
+							<div class="new_articles">
+								<div class="new_articles_content">
+								<strong >11</strong>
+								</div>	
+							</div>			
+
+
+
+</div>
+
+
+
+
+						<div class="row1 row">
+
+							<h2> Twitter now lets any user filter out threats and abuse </h2>	
+							<p> By Gordan Jolsan
+
+
+
+							</p>
+
+						</div>
+
+						<div class="row2 row">
+
+							<h2 > Twitter now lets any user filter out threats and abuse</h2>
+							<p>By Rick Cormick.
+
+						</div>
+
+						<div class="row3 row">
+
+							<h2> Twitter now lets any user filter out threats and abuse </h2>	
+							<p>By Tasha Robinson</p>
+
+						</div>
+
+
+						<div class="image_scroll">
+									  <img src="https://cdn0.vox-cdn.com/thumbor/qDPe0rN0o5uaN05FNZY6yjI7aoE=/0x0:2039x1359/540x360/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50400891/jbareham_160811_1180_A_0118.0.0.jpg" class="image_scroll_elements">
+									  <img src="https://cdn0.vox-cdn.com/thumbor/vm3-SucAmJTvLa-y1oJeQy6wsxo=/138x0:1572x956/540x360/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50407283/akrales_160802_1150_A_0066_16x9crop.0.0.jpg" class="image_scroll_elements">
+									  
+									  
+						</div>			  
+
+<!-- 
+background-image: url("https://cdn0.vox-cdn.com/thumbor/qDPe0rN0o5uaN05FNZY6yjI7aoE=/0x0:2039x1359/540x360/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50400891/jbareham_160811_1180_A_0118.0.0.jpg");
+
+
+background-image: url("https://cdn0.vox-cdn.com/thumbor/vm3-SucAmJTvLa-y1oJeQy6wsxo=/138x0:1572x956/540x360/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50407283/akrales_160802_1150_A_0066_16x9crop.0.0.jpg");
+ -->
+
+
+
+
+
+
+
+
+
+
+					<div class="animated_vertical_navbar ">
+												<ul>
+													<li><a href="#">
+													
+
+														<img class="login_signup_image" src="https://cdn0.vox-cdn.com/images/verge/default-avatar.v9899025.gif" alt="Default avatar.v9899025">Log in | Sign up
+
+
+	    															
+
+
+
+
+
+
+
+													
+													  </a></li>
+													<li><a>HOME</a></li>
+													<li><a>LONGFORM</a></li>
+													<li><a>REVIEWS</a></li>
+													<li><a>VIDEO</a></li>
+													<li><a>TECH</a></li>
+													<li><a>CIRCUIT BREAKER</a></li>
+													<li><a>SCIENCE</a></li>
+													<li><a>ENTERTAINMENT</a></li>
+													<li><a>CARS</a></li>	
+													<li><a>TL;DR</a></li>
+													<li><a>FORUMS</a></li>
+													<li><a>SEARCH</a></li>
+
+
+
+												</ul>
+
+
+					</div>
+
+					<div class="animated_vertical_navbar_shadow">
+
+
+
+					</div>
+
+										<div class="right_vertical_navbar">
+
+											<ul>
+													<li><a>Anoopgdsdsyg</a>    </li>
+
+
+
+
+
+
+											</ul>
+										</div>
+
+
+										<div class="right_vertical_navbar_shadow"></div>
+
+
+
+
+
+
+
+<script>
+
+
+
+$('.menu_icon_parent').click(function(){
+			$('.animated_vertical_navbar ').removeClass('transform_left');
+			$('.animated_vertical_navbar_shadow ').removeClass('transform_left_shadow');
+
+		  	$('.animated_vertical_navbar ').addClass('transform_right');
+			console.log("woooooooo");
+			 $('.animated_vertical_navbar_shadow ').addClass('transform_right');
+});
+
+
+
+
+
+
+$('.animated_vertical_navbar_shadow').click(function(){
+		  $('.animated_vertical_navbar_shadow ').removeClass('transform_right');
+
+		  $('.animated_vertical_navbar ').removeClass('transform_right');
+		  $('.animated_vertical_navbar ').addClass('transform_left');
+		  $('.animated_vertical_navbar_shadow ').addClass('transform_left_shadow');
+
+	  });
+
+
+$('.new_articles').click(function(){
+
+			$('.right_vertical_navbar_shadow').removeClass('right_vertical_navbar_shadow_transform_right');
+			$('.right_vertical_navbar ').removeClass('right_vertical_navbar_transform_right');
+
+			 $('.right_vertical_navbar').addClass('right_vertical_navbar_transform_left');
+			 $('.right_vertical_navbar_shadow').addClass('right_vertical_navbar_shadow_transform_left');      																														
+	console.log("woooooooo");
+});
+
+
+
+$('.right_vertical_navbar_shadow').click(function(){
+
+	$('.right_vertical_navbar_shadow').removeClass('right_vertical_navbar_shadow_transform_left');
+	$('.right_vertical_navbar ').removeClass('right_vertical_navbar_transform_left');
+	$('.right_vertical_navbar').addClass('right_vertical_navbar_transform_right');
+	$('.right_vertical_navbar_shadow').addClass('right_vertical_navbar_shadow_transform_right');      																														
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+					
+
+</body>
+</html>
